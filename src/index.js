@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App'; // app components
 import { install } from '@extjs/reactor';
+import MyComponent from'./MyComponent';
 
 install({
     // We set viewport: true because we are using an Ext JS component to manage layouts at the root of our app.
@@ -12,4 +13,4 @@ install({
 });
 
 // launch the react app once Ext JS is ready
-Ext.onReady(() => ReactDOM.render(<App/>, document.getElementById('root')));
+Ext.onReady(() => ReactDOM.render(<MyComponent/>, document.getElementById('root')));

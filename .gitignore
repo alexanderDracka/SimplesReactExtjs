@@ -1,4 +1,4 @@
 node_modules
 .sencha
 .vs_code
-build/extjs
+build

@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import {  Panel } from '@extjs/reactor/modern';
-
 
 export default class App extends Component{
     render(){
         return(
-            <Panel title='MyPanel'/>
+           <div>
+            <h1> Hello this is react jsx main component.</h1>
+            </div>
         )
     }
 }
