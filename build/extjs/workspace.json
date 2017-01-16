@@ -1,9 +1,0 @@
-{
-    "frameworks": {
-        "ext": "..\\..\\..\\..\\Architect\\frameworks\\ext62\\6.2.1.167\\commercial"
-    },
-    "packages": {
-        "dir": "${workspace.dir}/packages/local,${workspace.dir}/packages",
-        "extract": "${workspace.dir}/packages/remote"
-    }
-}
