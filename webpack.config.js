@@ -18,6 +18,7 @@ module.exports = {
     },
 
     resolve: {
+        extensions: ['', '.js', '.json'] ,
         alias: {
             "react-dom": path.resolve('./node_modules/react-dom')
         }
@@ -54,6 +55,10 @@ module.exports = {
                 query: {
                     name: 'static/media/[name].[hash:8].[ext]'
                 }
+            },
+            {
+                test:/\.json$/, 
+                loader:'json'
             }
         ]
     },
