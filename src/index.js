@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App'; // app components
 import { install } from '@extjs/reactor';
+import {Container} from '@extjs/reactor/modern';
 import MyComponent from'./MyComponent';
 
 install({
@@ -13,8 +14,4 @@ install({
 });
 
 // launch the react app once Ext JS is ready
-Ext.onReady(() => ReactDOM.render(
-    <div>
-        <h2>ExtJS Component:</h2>
-        <MyComponent/>
-    </div>, document.getElementById('root')));
+Ext.onReady(() => ReactDOM.render(<App/>, document.getElementById('root')));
