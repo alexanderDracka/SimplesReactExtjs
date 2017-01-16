@@ -1,0 +1,15 @@
+{
+    "framework": "ext",
+    "toolkit": "modern",
+    "theme": "theme-material",
+    "requires": [
+        "charts"
+    ],
+    "output": {
+        "base": ".",
+        "resources": {
+            "path": "./resources",
+            "shared": "./resources"
+        }
+    }
+}

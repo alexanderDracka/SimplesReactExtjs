@@ -1,0 +1,30 @@
+{
+  "name": "extjs-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prod": "webpack-dev-server --content-base ./build --compress",
+    "start": "webpack-dev-server --progress --profile --colors --config webpack.config.js",
+    "clean": "rimraf build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@extjs/reactor": "^0.2.5",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "@extjs/reactor-babel-plugin": "^0.2.0",
+    "@extjs/reactor-webpack-plugin": "^0.2.4",
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-2": "^6.18.0",
+    "html-webpack-plugin": "^2.26.0",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}

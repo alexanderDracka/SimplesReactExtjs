@@ -1,0 +1,4 @@
+node_modules
+.sencha
+.vs_code
+public/extjs
